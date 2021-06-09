@@ -1,0 +1,15 @@
+name = "sgtsnepi_jll"
+uuid = "c2c51ba6-9464-585c-93d5-ba434ab08fad"
+version = "1.0.2+0"
+
+[deps]
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+cilkrts_jll = "71772805-00bc-5a29-9044-a26d819b7806"
+FFTW_jll = "f5851436-0d7a-5f13-b9de-f02708fd171a"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+
+[compat]
+JLLWrappers = "1.2.0"
+julia = "1.6"
