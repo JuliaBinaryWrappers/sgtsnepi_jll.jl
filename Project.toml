@@ -1,6 +1,6 @@
 name = "sgtsnepi_jll"
 uuid = "c2c51ba6-9464-585c-93d5-ba434ab08fad"
-version = "1.0.2+0"
+version = "2.0.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
