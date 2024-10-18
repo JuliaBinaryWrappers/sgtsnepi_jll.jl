@@ -1,52 +1,296 @@
 [[sgtsnepi]]
-arch = "i686"
-git-tree-sha1 = "d579e5f352b34c0ebb774800030df868548c23da"
-libc = "glibc"
-os = "linux"
-
-    [[sgtsnepi.download]]
-    sha256 = "b59737cb5cf966641acfe9b711ae658d9e842c07f7690b3c199df7b6134fd02c"
-    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v2.0.0+0/sgtsnepi.v2.0.0.i686-linux-gnu.tar.gz"
-[[sgtsnepi]]
-arch = "i686"
-git-tree-sha1 = "86cf5ee4e985f901b99f16eee9c7a09635a80ffb"
-libc = "musl"
-os = "linux"
-
-    [[sgtsnepi.download]]
-    sha256 = "fd0ccfa4f2dae87e825067b80376a9893677a6e7454e40340782913858501e7b"
-    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v2.0.0+0/sgtsnepi.v2.0.0.i686-linux-musl.tar.gz"
-[[sgtsnepi]]
-arch = "x86_64"
-git-tree-sha1 = "fc41a0b85a58b8e54510707db829eac66b8f80b7"
+arch = "aarch64"
+git-tree-sha1 = "ee08f92b4b7b5e0122bd35359ac0fa6d5859ed7b"
 os = "macos"
 
     [[sgtsnepi.download]]
-    sha256 = "6fe0fe1d5215c0e60454e7c8112927335b762521e5f2cd892df83f19475e9e5f"
-    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v2.0.0+0/sgtsnepi.v2.0.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "f7ffcda41637bce1c55d190ae598512c6d7124f612985603ecd68cf179dfa3b1"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.aarch64-apple-darwin.tar.gz"
 [[sgtsnepi]]
-arch = "x86_64"
-git-tree-sha1 = "bd6322ff146661a4fe954133f14c87136dfe132b"
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "59ec63d8b6aabfa14d146ee2ad27db402bff57e4"
 libc = "glibc"
 os = "linux"
 
     [[sgtsnepi.download]]
-    sha256 = "310afa397008b77d35fc014525d4b2d2193653af423f10b49914c4284ccbfca2"
-    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v2.0.0+0/sgtsnepi.v2.0.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "a75597c71fa1660aaca26f9f13d1e800d46e8c10da05027b05ad53f2f84503b6"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.aarch64-linux-gnu-cxx03.tar.gz"
 [[sgtsnepi]]
-arch = "x86_64"
-git-tree-sha1 = "5d708d9d848597e8a62fdea8c52c0c12bebb30af"
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8a15286014f0534189d70478e937807c965374f7"
+libc = "glibc"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "8f57782aea029f16a3e62905aaac9bd81a8bfa3bff8795104623bf9b40f66402"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.aarch64-linux-gnu-cxx11.tar.gz"
+[[sgtsnepi]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "60409de521210686ae0b61808d70f245744aa806"
 libc = "musl"
 os = "linux"
 
     [[sgtsnepi.download]]
-    sha256 = "90aeecc25ddfda03d91852246439270c0bb12a4548faeebfa8125d3c89a31b06"
-    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v2.0.0+0/sgtsnepi.v2.0.0.x86_64-linux-musl.tar.gz"
+    sha256 = "5fafc68ca6e435b1d1d6170871f56b85bca620007d570b7c6adf6fe4262fb930"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.aarch64-linux-musl-cxx03.tar.gz"
 [[sgtsnepi]]
-arch = "x86_64"
-git-tree-sha1 = "40a010704fad476d8073671724b10c4a17c476b6"
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f3c9700342411f6657974a30a57883f8ec690eb2"
+libc = "musl"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "556be53294ca695fcec35a97dab208c45653fa8834aa652ce3d842b8370e0434"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.aarch64-linux-musl-cxx11.tar.gz"
+[[sgtsnepi]]
+arch = "aarch64"
+git-tree-sha1 = "0b86a3524e2e213d94eadc9a53f47e2e2115b45e"
 os = "freebsd"
 
     [[sgtsnepi.download]]
-    sha256 = "4581460ea842c781e2cd0d5c43a5d297b5d1713afe63ae04cb1b64fe77b73548"
-    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v2.0.0+0/sgtsnepi.v2.0.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "5b3cfc03ab9f52c4ac1313f043941675a5d875fb93ac67081bd74aa132db6a4d"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.aarch64-unknown-freebsd.tar.gz"
+[[sgtsnepi]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c9717f7bed23d53b2716cd7422ff6efda1596b09"
+libc = "glibc"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "24b65f657018c842c96905e8152ef146e8fdbcbd4030b086aac10d3d0a9960ab"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.armv6l-linux-gnueabihf-cxx03.tar.gz"
+[[sgtsnepi]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e1d9b3122fae5ce8ff86ed6d3b48a918db3437d5"
+libc = "glibc"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "c1eee8d0529956cdf3ec41e67d250f4e8aef51d89b0cbd1e9417dc3abe40fe34"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[sgtsnepi]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2dda790ae60350b20b172925448870563857f56a"
+libc = "musl"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "aeb9551a571dc4efe396b106c6a0bdb1e37735c4dc273943fa1eb50c59f75f2e"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.armv6l-linux-musleabihf-cxx03.tar.gz"
+[[sgtsnepi]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "889c7175a17a3511631e22fd951b463f29c259d9"
+libc = "musl"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "cdbbbaa104ce7ce9d6d42d996184baf46074b8a5ee954e50c4f4a7a9d313dc16"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.armv6l-linux-musleabihf-cxx11.tar.gz"
+[[sgtsnepi]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8ada8f16f3b66dfd1522f7a6015f5a18bf45382b"
+libc = "glibc"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "5b9f5a70f49cbfd33f22237d2c3aa9ee7065bcf31446983dd7de6e94006dcf33"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[sgtsnepi]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "70abd95b0ae93dcaafc83e6baee867639813070f"
+libc = "glibc"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "99f4054203ef247ad1daf90886f92388791f813f632c81a1b8f16ecdb91d1886"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[sgtsnepi]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c71e3fa71ff7b6c4f87a3f7d948236b9f48012f9"
+libc = "musl"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "2534a48b3914e554d45586e8888e98013acca9b2c503744691d3485d104d36c1"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[sgtsnepi]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "79a01a6cbb072c54fe3817c2d6762325ad42d3f6"
+libc = "musl"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "d0afc7a28b5c1395f7b080c945aded78891156f144367ce5f8652bc2fc2d91a1"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[sgtsnepi]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ed12aca4cc9e56fa318dfe0882dcf8668bde5eaf"
+libc = "glibc"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "888a2da85e2cd861327bca4371e50f377cb649a88f83eaa82419b541c21f3449"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.i686-linux-gnu-cxx03.tar.gz"
+[[sgtsnepi]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c8c8e1255089e1f8cc54770ec68046b2125d2b81"
+libc = "glibc"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "27c7b3810ded22db5adacc59851c787265663638930fea7fc78754cfa83bb2d3"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.i686-linux-gnu-cxx11.tar.gz"
+[[sgtsnepi]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "43d1031da8fcbb644b37e14baad4f8869689bbfe"
+libc = "musl"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "ad2c03010d7785c284cad846169d8fee9359bc7ace8e381a3f66a6a5df607c3e"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.i686-linux-musl-cxx03.tar.gz"
+[[sgtsnepi]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8a9c95c8556bc3ab623aa6e50fd5de6d1306dd4e"
+libc = "musl"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "1c0be15074bec3a4357c46fb8f551197ca0c730cf6b66bd729914db6b701404b"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.i686-linux-musl-cxx11.tar.gz"
+[[sgtsnepi]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "1aa38c93e0330ad1d333787434b0638253fdf3da"
+os = "windows"
+
+    [[sgtsnepi.download]]
+    sha256 = "714bc6a1eee089f5de8988e8ca73086ffe5d3fa996b89c07fe3b0cdf4d99c202"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.i686-w64-mingw32-cxx03.tar.gz"
+[[sgtsnepi]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "892a1780c98181a1062093e8b91e8adcdade9b73"
+os = "windows"
+
+    [[sgtsnepi.download]]
+    sha256 = "efd971da1f4e345f778d62affc7160896364d2000678d537d544bd7b53f6e538"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.i686-w64-mingw32-cxx11.tar.gz"
+[[sgtsnepi]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e925770fa5d9f23e3187bd4ed9079403c1a1f2fb"
+libc = "glibc"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "423e3f617cadadc552185fabea7d1c74e2a0862972f84a115c4d79ae44b415e5"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[sgtsnepi]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bf5997de33404474f39058b621b1e20b3fe4e5c2"
+libc = "glibc"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "f3f3c7de52dd5de3f36ba721485799f92ebcd034e6a7e35f96cd989df78c732b"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[sgtsnepi]]
+arch = "x86_64"
+git-tree-sha1 = "eb0986cd456b2132729da5c8df5a1251f589ba65"
+os = "macos"
+
+    [[sgtsnepi.download]]
+    sha256 = "000302a8afb2e59b060661561fd2bcebf626cc063dbec9cd2c8a9e186fa1fc02"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.x86_64-apple-darwin.tar.gz"
+[[sgtsnepi]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "523513c1f40645836a5c58cf90ccd96084c8551c"
+libc = "glibc"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "c2ce9fccb423a7734cc2f9d853ff9f3487b1ce0adf6cb3d786bbf972cfd8dd39"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.x86_64-linux-gnu-cxx03.tar.gz"
+[[sgtsnepi]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "db1d367fed5c6d17268f123a36e851214710b8a0"
+libc = "glibc"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "1850b83176213ec286f251392a77688ea57008fe71cd1c3c30818a883d60f82d"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[sgtsnepi]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4ce56bce7cfc6d5175d96add5c704a224707d377"
+libc = "musl"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "d40f0f9222093745501a4b2b03ff932474fd846173cc3fab4760e15ac9233db7"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.x86_64-linux-musl-cxx03.tar.gz"
+[[sgtsnepi]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a59b56d71fa51ab116c0e3328d2c6d8e594a6d62"
+libc = "musl"
+os = "linux"
+
+    [[sgtsnepi.download]]
+    sha256 = "71c3663db2a6896b56e4f24a2beca55582156fe9c2c602bf6266e8e4cdd925fe"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.x86_64-linux-musl-cxx11.tar.gz"
+[[sgtsnepi]]
+arch = "x86_64"
+git-tree-sha1 = "d6ffe83add1c57598af24755558c8854d9fc9e82"
+os = "freebsd"
+
+    [[sgtsnepi.download]]
+    sha256 = "53fda9801d9a16ac69ec74af401c5b126b597a6ac68f6ee60f2d1a8495211c2b"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.x86_64-unknown-freebsd.tar.gz"
+[[sgtsnepi]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "aee53b2b4d7c76ae2aa6150f3d4c5ce17a7ca8ca"
+os = "windows"
+
+    [[sgtsnepi.download]]
+    sha256 = "b8df3edab45d318a6595a561a25943ba65ea753886b126ff6239829314bbb25e"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.x86_64-w64-mingw32-cxx03.tar.gz"
+[[sgtsnepi]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "aca33118b46ba8863139b3020155d4406b5b5f8c"
+os = "windows"
+
+    [[sgtsnepi.download]]
+    sha256 = "66fca6c441ef0930a2c0a9a7163c460ef1232a48e92538840290fab4ef00fa87"
+    url = "https://github.com/JuliaBinaryWrappers/sgtsnepi_jll.jl/releases/download/sgtsnepi-v3.0.0+0/sgtsnepi.v3.0.0.x86_64-w64-mingw32-cxx11.tar.gz"

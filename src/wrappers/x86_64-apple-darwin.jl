@@ -2,11 +2,10 @@
 export libsgtsnepi
 
 using FFTW_jll
-using cilkrts_jll
 JLLWrappers.@generate_wrapper_header("sgtsnepi")
 JLLWrappers.@declare_library_product(libsgtsnepi, "@rpath/libsgtsnepi.0.dylib")
 function __init__()
-    JLLWrappers.@generate_init_header(FFTW_jll, cilkrts_jll)
+    JLLWrappers.@generate_init_header(FFTW_jll)
     JLLWrappers.@init_library_product(
         libsgtsnepi,
         "lib/libsgtsnepi.0.dylib",
